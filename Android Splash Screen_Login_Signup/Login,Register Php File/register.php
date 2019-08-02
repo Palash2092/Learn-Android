@@ -1,13 +1,13 @@
 <?php
 
        
-        define('HOST','mysql.hostinger.in');
+        define('HOST','localhost');
 
-        define('USER','u218522661_user');
+        define('USER','id10371277_palash');
 
-       	define('PASS','rahul123');
+       	define('PASS','01946630663');
 
-	define('DB','u218522661_ram');
+	define('DB','id10371277_palash');
 
 
         $con = mysqli_connect(HOST,USER,PASS,DB) or die('Unable to Connect');
